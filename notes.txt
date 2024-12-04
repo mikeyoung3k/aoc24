@@ -1,0 +1,3 @@
+itmdump -f itm.txt -F # Monitor the ITM file
+openocd # Start openocd with config files here
+cargo run # Run the program using the config.toml details
