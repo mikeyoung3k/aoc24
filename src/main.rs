@@ -28,6 +28,7 @@ mod day1;
 mod day2;
 mod day3;
 mod day4;
+mod day5;
 
 #[alloc_error_handler]
 fn alloc_error(_layout: Layout) -> ! {
@@ -50,7 +51,8 @@ fn main() -> ! {
     // day1::run(&mut stim);
     // day2::run(&mut stim);
     // day3::run(&mut stim);
-    day4::run(&mut stim);
+    // day4::run(&mut stim);
+    day5::run(&mut stim);
 
     loop {}
 }
